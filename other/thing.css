@@ -3,8 +3,8 @@ body {background-image:url(/shit/images/amazingbg.png);}
 IMG {max-width:100%}
 audio {max-width:99%}
 /* Text CSS */
-h1 {color:gold;text-align:center;font-family:sans-serif}
-a {color:cyan;font-family:sans-serif;text-shadow:1px 1px 7px red;}
+h1 {color:gold;text-align:center;font-family:helvetica}
+a {color:cyan;font-family:helvetica;text-shadow:1px 1px 7px red;}
 /* DIV CSS */
 .main {background-color:black;color:white;text-align:center;position:relative;width:85%;float:right;font-family:sans-serif;padding:2px;font-size:12px}
 .nav {background-color:black;color:white;text-align:center;margin:auto;position:relative;max-width:99%;font-size:12px;font-family:sans-serif;padding:4px;}
