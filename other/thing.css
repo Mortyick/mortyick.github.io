@@ -6,10 +6,10 @@ audio {max-width:99%}
 h1 {color:gold;text-align:center;font-family:helvetica}
 a {color:cyan;font-family:helvetica;text-shadow:1px 1px 7px red;}
 /* DIV CSS */
-.main {background-color:black;color:white;text-align:center;position:relative;width:85%;float:right;font-family:helvetica;padding:2px;font-size:12px}
-.nav {background-color:black;color:white;text-align:center;margin:auto;position:relative;max-width:99%;font-size:24px;font-family:helvetica;padding:4px;}
-.header {background-color:black;color:white;text-align:center;margin:auto;position:relative;max-width:99%;font-size:36px;font-family:helvetica;border-radius:8px 8px 1px 1px}
-.left-bar {float:left;width:13%;text-align:center;background-color:black;color:white;font-family:helvetica;font-family:24px;position:fixed}
+.main {background-color:black;color:white;text-align:center;position:relative;width:100%;float:right;font-family:helvetica;padding:12px;font-size:12px}
+.nav {background-color:black;color:white;text-align:center;margin:auto;position:relative;max-width:100%;font-size:24px;font-family:helvetica;padding:12px;}
+.header {background-color:black;color:white;text-align:center;margin:auto;position:relative;max-width:100%;font-size:36px;font-family:helvetica;border-radius:8px 8px 1px 1px}
+.left-bar {float:center;width:13%;text-align:center;background-color:black;color:white;font-family:helvetica;font-family:24px;position:fixed}
 .footer {font-size:24px;background-color:black;color:white;max-width:100%}
 /* SPOILER CSS */
 summary.spoiler {background-color:purple;width:max-content;max-width:1920%;padding:1080px}
