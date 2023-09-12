@@ -6,11 +6,11 @@ audio {max-width:100%}
 h1 {color:gold;text-align:center;font-family:system-ui}
 a {color:pink;font-family:system-ui;text-shadow:1px 1px 7px white;}
 /* DIV CSS */
-.main {background-color:black;color:pink;text-align:center;position:relative;width:100%;float:right;font-family:system-ui;padding:36px;font-size:24px}
-.nav {background-color:black;color:pink;text-align:center;margin:auto;position:relative;max-width:100%;font-size:24px;font-family:system-ui;padding:32px;}
-.header {background-color:black;color:pink;text-align:center;margin:auto;position:relative;max-width:100%;font-size:36px;font-family:system-ui;border-radius:8px 8px 1px 1px}
-.left-bar {float:center;width:13%;text-align:center;background-color:black;color:white;font-family:system-ui;font-family:24px;position:fixed}
-.footer {font-size:24px;background-color:black;color:white;max-width:100%}
+.main {background-color:rgba(0, 0, 0, 0.39);color:pink;text-align:center;position:relative;width:100%;float:right;font-family:system-ui;padding:36px;font-size:24px}
+.nav {background-color:rgba(0, 0, 0, 0.603);color:pink;text-align:center;margin:auto;position:relative;max-width:100%;font-size:24px;font-family:system-ui;padding:32px;}
+.header {background-color:rgba(0, 0, 0, 0.37);color:pink;text-align:center;margin:auto;position:relative;max-width:100%;font-size:36px;font-family:system-ui;border-radius:8px 8px 1px 1px}
+.left-bar {float:center;width:13%;text-align:center;background-color:rgba(0, 0, 0, 0.404);color:white;font-family:system-ui;font-family:24px;position:fixed}
+.footer {font-size:24px;background-color:rgba(0, 0, 0, 0.411);color:white;max-width:100%}
 /* SPOILER CSS */
 summary.spoiler {background-color:purple;width:max-content;max-width:1920%;padding:1080px}
 /* Dropdown Buttons */
