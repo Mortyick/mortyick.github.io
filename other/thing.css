@@ -1,14 +1,14 @@
 /* Main CSS */
 body {background-image:url(/shit/images/amazingbg.png);}
-IMG {max-width:99%}
+IMG {max-width:100%}
 audio {max-width:99%}
 /* Text CSS */
 h1 {color:gold;text-align:center;font-family:helvetica}
-a {color:cyan;font-family:helvetica;text-shadow:1px 1px 7px red;}
+a {color:pink;font-family:helvetica;text-shadow:1px 1px 7px white;}
 /* DIV CSS */
-.main {background-color:black;color:green;text-align:center;position:relative;width:100%;float:right;font-family:helvetica;padding:36px;font-size:24px}
-.nav {background-color:black;color:aqua;text-align:center;margin:auto;position:relative;max-width:100%;font-size:24px;font-family:helvetica;padding:32px;}
-.header {background-color:black;color:white;text-align:center;margin:auto;position:relative;max-width:100%;font-size:36px;font-family:helvetica;border-radius:8px 8px 1px 1px}
+.main {background-color:black;color:pink;text-align:center;position:relative;width:100%;float:right;font-family:helvetica;padding:36px;font-size:24px}
+.nav {background-color:black;color:pink;text-align:center;margin:auto;position:relative;max-width:100%;font-size:24px;font-family:helvetica;padding:32px;}
+.header {background-color:black;color:aqua;text-align:center;margin:auto;position:relative;max-width:100%;font-size:36px;font-family:helvetica;border-radius:8px 8px 1px 1px}
 .left-bar {float:center;width:13%;text-align:center;background-color:black;color:white;font-family:helvetica;font-family:24px;position:fixed}
 .footer {font-size:24px;background-color:black;color:white;max-width:100%}
 /* SPOILER CSS */
