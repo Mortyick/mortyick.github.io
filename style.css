@@ -68,6 +68,7 @@ button{
     position: relative;
     bottom: 500px;
     left: 700px;
+    font-family: inherit;
     overflow: hidden;
     transition-duration: 0.5s;
 }
