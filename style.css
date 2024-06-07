@@ -23,7 +23,7 @@ main{
     height: 100vh;
     width: 100vw;
     background: url("images/heheh.jpg");
-    background-size: inherit;
+    background-size: cover;
     position: relative;
 }
 main::before {
@@ -66,6 +66,8 @@ button{
     color: #97536b;
     cursor: pointer;
     position: relative;
+    bottom: 500px;
+    left: 650px;
     overflow: hidden;
     transition-duration: 0.5s;
 }
