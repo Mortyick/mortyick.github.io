@@ -22,9 +22,8 @@ a{
 main{
     height: 100vh;
     width: 100vw;
-    background: url("images/heheh.jpg") no-repeat;
-    background-position-y: 90%;
-    background-size: cover;
+    background: url("images/heheh.jpg");
+    background-size: inherit;
     position: relative;
 }
 main::before {
