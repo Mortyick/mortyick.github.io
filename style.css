@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -53,7 +53,7 @@ main::before {
 .content p{
     margin: 20px auto;
     font-weight: 650;
-    line-weight: 25px;
+    line-height: 25px;
 }
 button{
     width: 250px;
