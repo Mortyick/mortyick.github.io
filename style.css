@@ -10,7 +10,7 @@ body{
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    display: initial;
+    display: grid;
     place-content: center;
     font-family: "Quicksand", sans-serif;
 }
@@ -23,8 +23,9 @@ main{
     height: 100vh;
     width: 100vw;
     background: url("images/heheh.jpg") no-repeat;
+    background-position-y: 90%;
     background-size: cover;
-    position: absolute;
+    position: relative;
 }
 main::before {
     content: "";
