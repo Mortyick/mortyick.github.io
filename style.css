@@ -1,68 +1,78 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
     margin: 0;
-    margin-top: -25px;
-    font-family: sans-serif; /* Add this line */
-}
-
-header * {
-    display: inline;
-    height: 50px;
-}
-
-header ul {
     padding: 0;
+    box-sizing: border-box;
 }
 
-header li {
-    margin-left: 20px;
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    font-family: "Quicksand", sans-serif;
 }
 
-section {
-    height: 95vh;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#hero .profile-img {
-    width: 300px;
-    border-radius: 50%; /* Add this line */
-}
-
-footer {
-    text-align: center;
-    padding: 50px;
-}
-
-/* Add everything below here */
-
-#hero h1 {
-    font-size: 3em;
-}
-
-section h2 {
-    font-size: 2.5em;
-}
-
-section h3 {
-    font-size: 2.5em;
-}
-
-header a {
+a{
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
-
-#hero {
-    background-image: linear-gradient(rgba(91,85,120,0.10),rgba(89,79,110,0.55)), url('https://raw.githubusercontent.com/Mortyick/mortyick.github.io/main/other/SecondOneX.png');
+main{
+    height: 100vh;
+    width: 100vw;
+    background: url("images/heheh.jpg") no-repeat;
+    background-position-y: 40%;
+    background-size: cover;
+    position: relative;
 }
-
-#about {
-    background-image: linear-gradient(rgba(91,85,120,0.54),rgba(89,79,110,0.25)), url('https://raw.githubusercontent.com/Mortyick/mortyick.github.io/main/other/AnotherBG.png');
+main::before {
+    content: "";
+    position: absolute;
+    inset: 0%;
+    background: linear-gradient(to bottom, #e99fb711 1%, #e99fb722, #e99fb744);
 }
-
-#contact {
-    background-image: linear-gradient(rgba(91,85,120,0.24),rgba(89,79,110,0.15)), url('https://raw.githubusercontent.com/Mortyick/mortyick.github.io/main/other/TheThirdOne.png');
+.container img{
+    position: center;
+    margin: -40px auto;
+    rotate: 0deg;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50;
+    transform: translateY(-35%);
+    text-align: center;
+    color: #ffcfde;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 450px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 650;
+    line-weight: 25px;
+}
+button{
+    width: 250px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10 px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 3px solid #e99fb7;
+    background: #ffd1e8;
+    color: #97536b;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}
+button:hover{
+  border:3px solid #97536b;
+  color: #ff97ac;
+  border-radius: 25px;
+  padding: 18px 0;
 }
