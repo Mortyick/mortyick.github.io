@@ -11,6 +11,8 @@ body{
     width: 100vw;
     overflow: hidden;
     display: grid;
+    background: url("images/heheh.jpg") no-repeat;
+    background-size: cover;
     place-content: center;
     font-family: "Quicksand", sans-serif;
 }
@@ -22,8 +24,6 @@ a{
 main{
     height: 100vh;
     width: 100vw;
-    background: url("images/heheh.jpg");
-    background-size: cover;
     position: relative;
 }
 main::before {
@@ -52,7 +52,7 @@ main::before {
 .content p{
     margin: 20px auto;
     font-weight: 650;
-    line-height: 25px;
+    line-weight: 25px;
 }
 button{
     width: 250px;
@@ -67,7 +67,7 @@ button{
     cursor: pointer;
     position: relative;
     bottom: 500px;
-    left: 700px;
+    left: 560px;
     font-family: inherit;
     overflow: hidden;
     transition-duration: 0.5s;
