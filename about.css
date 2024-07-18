@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: grid;
+    background: url("images/wallhevon.jpg") no-repeat;
+    background-size: cover;
+    place-content: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.20s;
+}
+main::before {
+    position: absolute;
+    inset: 0%;
+}
+.container img{
+    position: center;
+    margin: -40px auto;
+    rotate: 0deg;
+}
+@keyframes example{
+  0%   {opacity: 0; top:270px;}
+  100% {opacity: 100; top:0px;}
+}
+.content{
+    width: 100%;
+    position: center;
+    top: 50;
+    transform: translateY(-37%);
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    line-height: 1.2;
+    color: #ffcfde;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 460px;
+    text-align: center;
+    line-height: 2;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 650;
+    line-weight: 25px;
+}
