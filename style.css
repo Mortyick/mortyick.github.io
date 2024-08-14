@@ -11,7 +11,7 @@ body{
     width: 100vw;
     overflow: hidden;
     display: grid;
-    background: url("images/heheh.jpg") no-repeat;
+    background: url("images/wallshit.jpg") no-repeat;
     background-size: cover;
     place-content: center;
     font-family: "Quicksand", sans-serif;
@@ -67,7 +67,7 @@ button{
     cursor: pointer;
     position: relative;
     bottom: 500px;
-    left: 540px;
+    left: 325px;
     font-family: inherit;
     overflow: hidden;
     transition-duration: 0.5s;
