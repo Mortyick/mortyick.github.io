@@ -6,42 +6,15 @@
     box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    display: grid;
-    background: url("images/Finel.png") no-repeat;
-    background-size: cover;
-    place-content: center;
-    font-family: "Annie Use Your Telescope", cursive;
-}
-
 a{
     text-decoration: none;
     color: inherit;
-}
-main{
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-}
-main::before {
-    content: "";
-    position: absolute;
-    inset: 0%;
-    background: linear-gradient(to bottom, #e99fb711 1%, #e99fb722, #e99fb744);
-}
-.container img{
-    position: center;
-    margin: -40px auto;
-    rotate: 0deg;
 }
 .content{
     width: 100%;
     position: absolute;
     top: 50;
-    transform: translateY(-35%);
+    transform: translateY(-45%);
     text-align: center;
     color: #ffcfde;
 }
@@ -53,6 +26,7 @@ main::before {
     margin: 20px auto;
     font-weight: 650;
     line-weight: 25px;
+    font-size: 25px
 }
 button{
     width: 250px;
@@ -65,16 +39,29 @@ button{
     background: #ffd1e8;
     color: #97536b;
     cursor: pointer;
-    position: relative;
-    bottom: 500px;
-    left: 325px;
+    position: center;
+    bottom: 500 px;
+    left: 320px;
     font-family: inherit;
     overflow: hidden;
     transition-duration: 0.5s;
+    font-size: 15px
 }
 button:hover{
-  border:3px solid #97536b;
+  border: 3px solid #97536b;
   color: #ff97ac;
   border-radius: 25px;
-  padding: 18px 0;
+  padding: 15px 0;
+  font-size: 18px
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: grid;
+    background: url("images/Heehee.png") no-repeat;
+    background-size: cover;
+    place-content: center;
+    font-family: "Annie Use Your Telescope", cursive;
 }
