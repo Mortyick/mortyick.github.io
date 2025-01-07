@@ -35,7 +35,7 @@ button{
     margin: 20px 10 px;
     border-radius: 30px;
     font-weight: bold;
-    border: 3px solid #1d181a;
+    border: 3px solid #0c0a0a;
     background: #2a2023;
     color: #ed9fba;
     cursor: pointer;
@@ -48,7 +48,7 @@ button{
     font-size: 15px
 }
 button:hover{
-  border: 3px solid #2f272b;
+  border: 3px solid #160a0f;
   color: #f88eb3;
   border-radius: 25px;
   padding: 15px 0;
@@ -60,7 +60,7 @@ body{
     width: 100vw;
     overflow: hidden;
     display: grid;
-    background: url("images/Warped.png") no-repeat;
+    background: url("images/Ponko.png") no-repeat;
     background-size: cover;
     place-content: center;
     font-family: "Annie Use Your Telescope", cursive;
