@@ -60,7 +60,7 @@ body{
     width: 100vw;
     overflow: hidden;
     display: grid;
-    background: url("images/Heehee.png") no-repeat;
+    background: url("images/Warped.png") no-repeat;
     background-size: cover;
     place-content: center;
     font-family: "Annie Use Your Telescope", cursive;
