@@ -16,7 +16,7 @@ a{
     top: 50;
     transform: translateY(-45%);
     text-align: center;
-    color: #151314;
+    color: #f18ba8;
 }
 .content h1{
     font-size: 50px;
@@ -35,9 +35,9 @@ button{
     margin: 20px 10 px;
     border-radius: 30px;
     font-weight: bold;
-    border: 3px solid #0c0a0a;
-    background: #2a2023;
-    color: #ed9fba;
+    border: 3px solid #9d4f66;
+    background: #ed8ba7;
+    color: #0c0a0a;
     cursor: pointer;
     position: center;
     bottom: 500 px;
@@ -48,8 +48,8 @@ button{
     font-size: 15px
 }
 button:hover{
-  border: 3px solid #160a0f;
-  color: #f88eb3;
+  border: 3px solid #ac4c69;
+  color: #131010;
   border-radius: 25px;
   padding: 15px 0;
   font-size: 18px
