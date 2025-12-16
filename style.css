@@ -35,9 +35,9 @@ button{
     margin: 20px 10 px;
     border-radius: 30px;
     font-weight: bold;
-    border: 3px solid #dfdfdf;
+    border: 3px solid #1c1e1e;
     background: #141414;
-    color: #ffe7e7;
+    color: #ffffff;
     cursor: pointer;
     position: center;
     bottom: 500 px;
@@ -48,8 +48,8 @@ button{
     font-size: 15px
 }
 button:hover{
-  border: 3px solid #ececec;
-  color: #fff6f6;
+  border: 3px solid #212323;
+  color: #ffffff;
   border-radius: 25px;
   padding: 15px 0;
   font-size: 18px
