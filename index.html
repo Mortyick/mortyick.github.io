@@ -1,4 +1,39 @@
 <html>
+<style type="text/css">
+div.clickEffect{
+	position:fixed;
+	box-sizing:border-box;
+	border-style:solid;
+	border-color:#fafafa;
+	border-radius:50%;
+	animation:clickEffect 0.5s ease-out;
+	z-index:99999;
+}
+@keyframes clickEffect{
+	0%{
+		opacity:1;
+		width:0.5em; height:0.5em;
+		margin:-0.25em;
+		border-width:0.5rem;
+	}
+	100%{
+		opacity:0.2;
+		width:15em; height:15em;
+		margin:-7.5em;
+		border-width:0.03rem;
+	}
+}
+</style>
+<script type="text/javascript">
+function clickEffect(e){
+	var d=document.createElement("div");
+	d.className="clickEffect";
+	d.style.top=e.clientY+"px";d.style.left=e.clientX+"px";
+	document.body.appendChild(d);
+	d.addEventListener('animationend',function(){d.parentElement.removeChild(d);}.bind(this));
+}
+document.addEventListener('click',clickEffect);
+</script>
 <head>
     <link rel="icon" href="/images/ew.png">
     <title>warp zone</title>
@@ -11,7 +46,7 @@
        </div>
            <div class="container">
                <a href="https://www.boredbutton.com/random"><button>Boredom</button></a>
-               <a href="https://bigrat.monster"><button>Fr3nch</button></a>
+               <a href="https://swimming.fish"><button>Fish</button></a>
                <a href="https://yecombinator.com"><button>East</button></a>
                <a href="https://obamify.com"><button>Obama</button></a>
                <a href="https://a67z.com/"><button>Retarded</button></a>
