@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
 *{
     margin: 0;
@@ -12,47 +12,35 @@ a{
 }
 .content{
     width: 100%;
-    position: absolute;
-    top: 50;
-    transform: translateY(-45%);
+    position: center;
+    top: 100;
     text-align: center;
     color: #ffffff;
+    transform: translateY(-100%);
 }
 .content h1{
     font-size: 50px;
-    margin-top: 450px;
 }
 .content p{
-    margin: 20px auto;
     font-weight: 650;
     line-weight: 25px;
     font-size: 25px
 }
 button{
-    width: 250px;
-    padding: 15px 0;
+    width: 90px;
+    padding: 5px 0;
     text-align: center;
-    margin: 20px 10 px;
-    border-radius: 30px;
+    border-radius: 15px;
     font-weight: bold;
-    border: 3px solid #1c1e1e;
-    background: #141414;
+    border: 3px solid #000000;
+    background: #000000;
     color: #ffffff;
     cursor: pointer;
     position: center;
-    bottom: 500 px;
-    left: 320px;
+    transform: translateY(250%);
     font-family: inherit;
     overflow: hidden;
-    transition-duration: 0.5s;
-    font-size: 15px
-}
-button:hover{
-  border: 3px solid #212323;
-  color: #ffffff;
-  border-radius: 25px;
-  padding: 15px 0;
-  font-size: 18px
+    font-size: 20px
 }
 
 body{
@@ -60,8 +48,8 @@ body{
     width: 100vw;
     overflow: hidden;
     display: grid;
-    background: url("images/emo.png") no-repeat;
+    background: #000000;
     background-size: cover;
     place-content: center;
-    font-family: "Annie Use Your Telescope", cursive;
+    font-family: "Reenie Beanie", cursive;
 }
